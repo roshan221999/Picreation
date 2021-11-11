@@ -47,6 +47,11 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+    
+    window.addEventListener('contextmenu', function (e) { 
+  // do something here... 
+  e.preventDefault(); 
+}, false);
 
     // owl carousel script
     $('.carousel').owlCarousel({
