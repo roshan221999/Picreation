@@ -48,6 +48,13 @@ $(document).ready(function(){
         loop: true
     });
     
+      var typed = new Typed(".typing-3", {
+        strings: ["Aditya", "Roshan", "Akash", "Tarun", "Prakhar", "Kaustub"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    
     window.addEventListener('contextmenu', function (e) { 
   // do something here... 
   e.preventDefault(); 
